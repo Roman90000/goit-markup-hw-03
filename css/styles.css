@@ -41,6 +41,8 @@ body {
   font-family: Roboto, sans-serif;
   margin: 0;
   width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -262,7 +264,6 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 30px;
-  height: 252px;
 }
 .list-footer {
   list-style: none;
@@ -270,7 +271,7 @@ body {
 .header-logo-footer {
   color: var(--primary-body-color);
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -285,20 +286,23 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-body-color);
   font-style: normal;
+  font-weight: normal;
 
   margin-bottom: 9px;
 }
 .info {
   font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.5px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .info-mail {
   font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 
